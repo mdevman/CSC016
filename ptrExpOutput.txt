@@ -1,0 +1,17 @@
+bash-4.2$ g++ ptrExp.cpp -o ptrExp.out
+bash-4.2$ ./ptrExp.out
+size of short is 2
+size of int is 4
+size of long is 8
+size of float is 4
+size of double is 8
+address of i is 0x7ffc155ae184
+intPtr points to address 0x7ffc155ae184
+value of addrress intPtr is 2
+address of j is 0x7ffc155ae180
+intPtr points to address is 0x7ffc155ae180
+value of address intPtr is 0x7ffc155ae180
+bash-4.2$ gedit ptrExpOutput.txt &
+[2] 2654
+bash-4.2$ 
+

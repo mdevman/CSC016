@@ -1,0 +1,39 @@
+gedit <filename> &
+
+ls -a  display all
+ls -d just directories
+ls -g long list of directories
+ls -l long format
+
+Control + c (or z) to return to terminal or kill process
+
+
+apropos "directory"  to see all about commands associated with directories
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int *iPtr;
+
+  
+  return 0;
+}
+
+g++ memExp.cpp -o memExp.out
+./memExp.out
+
+control s   save
+
+gzip -c file1  > foo.gz
+gzip -c file2 >> foo.gz
+--OR--
+cat file1 file2 | gzip > foo.gz  (best)
+gzip -c file1 file2 > foo.gz
+
+gunzip -c foo  (just displays the zipped file contents)
+
+
+
