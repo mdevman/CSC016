@@ -1,0 +1,7 @@
+EMPLOYEES+opnmpd@SASurfDemo ~/CSC016
+$ g++ HelloErrors.cpp -o HelloErrors.out
+
+EMPLOYEES+opnmpd@SASurfDemo ~/CSC016
+$ ./HelloErrors.out
+!!!Hello Errors!!!
+Result=14440

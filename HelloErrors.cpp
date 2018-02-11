@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 const float MyConstantValue = 9.9;
 
 int testFunc1()
@@ -20,8 +20,8 @@ int testFunc3(int y)
 
 int main()
 {
- cout << "!!!Hello Errors!!!" << endl;
+ cout<<"!!!Hello Errors!!!"<<endl;
  int result = testFunc3(10);
- cout << "Result="<<result<<endl;
+ cout<<"Result="<<result<<endl;
  return 0;
 }
