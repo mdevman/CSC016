@@ -1,5 +1,7 @@
 gedit <filename> &
 
+ls -l
+
 ls -a  display all
 ls -d just directories
 ls -g long list of directories
