@@ -1,0 +1,6 @@
+Instructions for running the convertAnyBaseToBase10.out program
+
+Step 1: Change the directory to the proper working directory where the convertAnyBaseToBase10.out program is located
+Step 2: Type ./convertAnyBaseToBase10.out at the prompt
+Step 3: Enter a valid value in the base that you want converted and hit enter
+Step 4: Enter the base of the value previously entered and hit enter

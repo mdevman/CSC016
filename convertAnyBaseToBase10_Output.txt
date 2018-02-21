@@ -1,0 +1,14 @@
+EMPLOYEES+opnmpd@SASurfDemo ~/CSC016
+$ ./convertAnyBaseToBase10.out
+Please enter the number you wish to convert:
+223344
+Please enter the base of the number (between 2 and 9):
+5
+The decimal equivalent of 223344 base 5 is 7974
+EMPLOYEES+opnmpd@SASurfDemo ~/CSC016
+$ ./convertAnyBaseToBase10.out
+Please enter the number you wish to convert:
+0011010
+Please enter the base of the number (between 2 and 9):
+2
+The decimal equivalent of 0011010 base 2 is 26
