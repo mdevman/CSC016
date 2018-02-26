@@ -1,0 +1,62 @@
+Open Git Bash or terminal
+If you have never used Git on the current machine then perform the git config commands
+git config --global user.name"Foo Bar"
+git config --global user.email "foobar@examaple.com"
+
+If you want to associate the local repository with a github online repository then setting up the ssh key will allow you to communicate with the online repository without having to enter your username and password all the time.
+Type the following command to generate the ssh keygen
+ssh-keygen -t rsa
+
+Type the following to view the ssh key thaqt was generated.  You will need to copy the key and paste it into your online repository.
+cat ~/.ssh/id_rsa.pub
+
+You will something like the following:
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQEYO/cVRTKKRFYldAT/rl6elimoQRleK/MFFM/IqBjPS1IT+9/gYfk5aTaFXbKsk23HG5BYm1WJYbvlsVRXnAW5x1CFbvmvgT2eyT3i/qBoSE2hJUa/clJeV7ywg0N4D4+FmBOlDCa04tay/uQk/cqRoYo08k9+pO2Wb+b4CXd53wpRztiN7u1lLBSBN8huR2IGmhzHEx3siT6VyEk52M45OkVPn9GaWGZQTMQfLAXp/+5rcguUGkFX1xmL61AExdSETzR+9uV3lp1s9D6qDdxTMbX+F7YdjMjTuyv4o8b9JuqqCplKggRBlTIOOC30P9uXVADrV EMPLOYEES+opnmpd@SASurfDemo
+
+The SSH key is the set of characters, numbers and symbols between ssh-rsa and the name of the computer.  There should a space between the ssh-rsa and the computer name at the end.
+
+Copy the rsa key and login to your github.com account.  You do this by accessing your account setting  Once you are viewing your account settings you will see a link to the SSH and GPG keys.  Click the button to add the new SSH key.  Give the new SSH key a title/name and the paste it in the box and add/save it.
+
+Now you can start using Git to manage your files.
+
+Change the current directory to the working directory by issuing a command similar to the following:
+cd "C:\Users\username\Documents\Visual Studio 2017\Solutions\"
+
+If you have not initiated the working directory to be managed by Git, then perform a Git Init by issuing the following command:
+git init
+
+This will tell Git to start managing all files in the current directory and all files in folders contained in the current directory.
+
+As you create new files and folders you must make Git aware of them by issuing the following command:
+git add .  (the dot at the end is required)
+
+You then need to tell git that these files are ready to be managed by issuing the following command:
+git commit -m "some kind of label for the commit"
+
+To find out the status of your files with regard to git's management of them issue the following command:
+git status
+
+This will tell you if you need to re-issue the git add command or the got commit command or if your need to perform a file pull.
+
+In order to send files to an online repository, you need to add a remote.  You will need to create a remote repository (remote) in your on line github.comm account.  TYhat name will be used when creating the remote for your local repository.  It will be of the form: https://github.com/<your username for github.com>/repository name>.git.
+
+Once you have created the remote repo that will store files from your local repo, issue the following command:
+git remote add origin "https://github.com/<your username for github.com>/repository name>.git"
+
+If you have not set up the ssh information, you will be prompted for your username and password.
+
+Now that you have established the connection to the remote repo, you should execute the following command to push all your files to the remote repo:
+git push --all -u origin
+
+As you work, you should issue the status command from time to time to see how you are progressing and that the files you are adding and changing are being identified by git.
+
+At the end of a coding session, you should issue the following commands to ensure got is managing your files properly:
+git status
+git add .  --OR--  git add --all
+git commit -m "commit message"
+git push --all -u origin
+
+
+At the beginning of a coding session you should run the following commands to ensure your local repo is in sync with your remote repo:
+git ststus  (which will tell you if you should first properly end a previous coding session)
+git pull
