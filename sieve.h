@@ -5,3 +5,45 @@ It does so by iteratively marking as composite (i.e., not prime) the multiples o
 */
 
 //Need to figure out if the number is a prime number
+
+class sieveArr
+{
+  public:
+    //constructors
+    sieveArr();
+    sieveArr(int begin, int end);
+
+    void loadArray();
+    void findPrime();
+
+    //const int maxSize = 1000;
+    int *intArrSieve;
+    
+    bool isPrime(int intNum);
+    
+    int getBegin()
+    {
+      return m_begin;
+    }
+    
+    int getEnd()
+    {
+      return m_end;
+    }
+    
+    int getSize()
+    {
+      return m_size;
+    }
+    
+    int getMin()
+    {
+      return m_min;
+    }
+    
+  private:
+    int m_min;
+    int m_begin;
+    int m_end;
+    int m_size;
+};

@@ -1,0 +1,48 @@
+bash-4.2$ cd Projects
+bash-4.2$ g++ sieve.cpp sieveMain.cpp -o sieve.out
+bash-4.2$ ./sieve.out
+To start we need the range of the numbers to process.
+Please enter the beginning number: 
+2
+Please enter the ending number: 
+50
+Begin: 2
+End: 50
+Size: 48
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+bash-4.2$ ./sieve.out
+To start we need the range of the numbers to process.
+Please enter the beginning number: 
+10
+Please enter the ending number: 
+50
+Begin: 2
+End: 50
+Size: 48
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+bash-4.2$ 
+

@@ -1,0 +1,4 @@
+Run the sieve.out file
+You will be prompted to enter a start number
+You will be prompted for an end number
+Program will display the start and end numbers along with all the prime numbers between the start and end numbers inclusive.

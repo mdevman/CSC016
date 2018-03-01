@@ -1,0 +1,8 @@
+bash-4.2$ cd Projects
+bash-4.2$ ./rect.out
+The area is: 1000
+Width: 10, Length: 20, Area: 200, Perimeter: 60
+Please enter a rectangle:12 51
+Width: 12, Length: 51, Area: 612, Perimeter: 126
+bash-4.2$ 
+
