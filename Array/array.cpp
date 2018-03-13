@@ -24,12 +24,12 @@ namespace csc016
 	// copy array
 	void Array::copy(const Array & ar)
 	{
-		deleteFunc();										// 1. check if memory is allocated.  If so, free memory
-		m_dataArray = new int[ar.getLength()];				// 2. Allocate new size == ar.getLength(), m_dataLength = ar.getLength
+		deleteFunc();				// 1. check if memory is allocated.  If so, free memory
+		m_dataArray = new int[ar.getLength()];	// 2. Allocate new size == ar.getLength(), m_dataLength = ar.getLength
 		m_dataLength = ar.getLength();
-		for (i = 0; i < ar.getLength(); i++)				// 3. Loop other elements of ar and copy into m_dataArray (Our Assignment)
+		for (int i = 0; i < ar.getLength(); i++)	// 3. Loop other elements of ar and copy into m_dataArray (Our Assignment)
 		{
-			
+			m_dataArray[i] = ar[i];
 		}
 	}
 	

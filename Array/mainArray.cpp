@@ -20,7 +20,7 @@ int main()
 	cout<<"You entered: "<<endl;
 	for(int i = 0; i < ar.getLength(); i++)
 	{
-		cout<<ar[i]<<" " ;"
+		cout<<ar[i]<<" " ;
 	}
 	
 	cout<<endl;
@@ -28,7 +28,7 @@ int main()
 	Array ar2(ar);
 	
 	cout<<"The copied array is: "<<endl;
-	for (int i = 0; i, ar2.getLwength(); i++)
+	for (int i = 0; i < ar2.getLength(); i++)
 	{
 		cout<<ar2[i]<<" ";
 	}

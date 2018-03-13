@@ -1,0 +1,11 @@
+bash-4.2$ ./array.out
+Please enter an array size: 
+5
+Please enter values: 
+1 5 9 7 5
+You entered: 
+1 5 9 7 5 
+The copied array is: 
+1 5 9 7 5 
+bash-4.2$ cd.
+
