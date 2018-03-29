@@ -1,0 +1,29 @@
+bash-4.2$ g++ node.cpp mainNode.cpp list.cpp -o node.out
+bash-4.2$ ./node.out
+3 2 1 
+After insert
+2 1 
+2 
+
+After deleteByVal
+3 2 1 
+After second insert
+3 2 
+3 
+
+After deleteByPosition
+3 2 1 
+After third insert
+2 1 
+1 
+
+After deleteByPosition second
+3 2 1 
+After fourth insert
+3 2 1 
+3 2 1 
+3 2 
+2 
+After deleteByPosition third
+2 1 2 3 
+After insert by position

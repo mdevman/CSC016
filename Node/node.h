@@ -11,6 +11,7 @@ class Node
 public:
 	Node();
 	Node(DataType data, Node * next);
+	//~Node();
 	
 	//data
 	DataType data;
