@@ -1,0 +1,35 @@
+Follow the instructions below to complete the List class we worked on in the lab (03/14/18).
+
+-----------------------------------------
+
+Use the List class you worked on in the lab as a base and add the following methods (List class functions):
+
+1. implement a delete by value function* **:    
+
+    void deleteByVal(DataType data);
+
+* The function should search the list for a value and if it is found remove it from the list
+
+** DataType is the typedef you defined in Node.h: typedef int DataType;
+
+2. implement a delete by position function* **:    
+
+    void deleteByPosition(int pos);
+
+* The function should traverse the list and remove a value at the specified pos.
+
+** The first element in the list is at position 1, the last element is at position N (where N is size of list)
+
+3. implement an insert by position function * ** ***:    
+
+    void insert(int pos, DataType data);
+
+* The function should traverse the list and insert a value at the specified pos.
+
+** The first element in the list is at position 1, the last element is at position N (where N is size of list)
+
+*** DataType is the typedef you defined in Node.h: typedef int DataType;
+
+4. Write a driver program to test the new features (you can add the tests to the existing main)
+
+5. Submit your source files and output examples
